@@ -14,9 +14,11 @@ palabra = input("Escribe una palabra: ")
 # Proceso
 letra = palabra[0:1].lower()
 
-if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "á" or letra == "é" or letra == "í" or letra == "ó" or letra == "ú":
+if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u" or letra == "á" or letra == "é" or letra == "í" or letra == "ó" or letra == "ú":
     # Salida
-    print(palabra, "comienza con vocal")
+    print(f"'{palabra}' comienza con vocal")
+
+    palabra
 else:
     #Salida
-    print(palabra, "no comienza con vocal")
+    print(f"'{palabra}' no comienza con vocal")
